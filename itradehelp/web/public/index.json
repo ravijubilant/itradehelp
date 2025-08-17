@@ -1,0 +1,13 @@
+{
+  "version": "0.3.0",
+  "fields": [
+    "text"
+  ],
+  "ref": "id",
+  "invertedIndex": [],
+  "pipeline": [
+    "trimmer",
+    "stopWordFilter",
+    "stemmer"
+  ]
+}

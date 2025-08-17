@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    "https://itrade.cgsi.com.sg/help"
+  ],
+  "allowedDomains": [
+    "itrade.cgsi.com.sg"
+  ],
+  "includePaths": [
+    "/help"
+  ],
+  "excludePatterns": [
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".gif",
+    ".svg",
+    ".css",
+    ".js",
+    ".ico",
+    "mailto:",
+    "tel:"
+  ],
+  "maxPages": 1000,
+  "maxDepth": 6,
+  "pdf": {
+    "enabled": true
+  },
+  "capture": {
+    "imagesAlt": true,
+    "videoTitles": true
+  }
+}
